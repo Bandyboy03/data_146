@@ -4,4 +4,4 @@ pretty confused whats going on
 
 ##
 
-![](MillerHallSelfie.png)
+![](MillerHallSelfie.jpg)
