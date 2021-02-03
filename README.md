@@ -9,4 +9,4 @@ pretty confused whats going on
 
 ## Informal Responses
 
-[Google's Webpage](https://bandyboy03.github.io/intro-data-science/Response1.html)
+[Andy's Response1](https://bandyboy03.github.io/intro-data-science/Response1.html)
