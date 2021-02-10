@@ -9,4 +9,4 @@ why u stalking tho
 
 ## Informal Responses
 
-[Response1](https://bandyboy03.github.io/intro-data-science/Response1.html)
+[Response1](https://bandyboy03.github.io/data_146/Response1.html)
