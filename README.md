@@ -2,7 +2,7 @@
 
 why u stalking tho
 
-## seflie?
+## smh
 
 ![](MillerHallSelfie.jpg)
 
