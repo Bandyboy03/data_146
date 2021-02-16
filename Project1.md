@@ -40,7 +40,7 @@ data['GDP'] = data['pop'] * data['gdpPercap']
 important_data = data[(data['country'].isin(['Germany', 'Italy', 'France', 'Spain'])) & (data['year'] == 2007)]
 important_filtered = important_data.sort_values('gdp', ascending = False)
 ```
-#Here:
+# Here:
 ![](Project1Table.PNG)
 
 ## Question 6
