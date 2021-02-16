@@ -70,14 +70,14 @@ Example: If the country is US OR Canada, return true
 ^, the XOR operator, returns true if only one of the conditional statements is true. It is very similar to the OR operator, with the difference being that it returns false if both statements are true.
 Example: If the is a cat XOR a dog, return true. (Returns false if there is a cat and a dog.)
 ## Question 7
-Describe the difference between .loc and .iloc. Provide an example of how to extract a series of consecutive observations from a data frame. Stretch goal: provide an example of how to extract all observations from a series of consecutive columns.
+
 .loc and .iloc access a group of rows and columns. The difference between the two is that .loc always interprets the labels, whereas .iloc interprets the integer positions along the index.
 ```
 data.loc(1:5)
 ```
 Stretch:
 ```
-data.loc(1:5,:)
+data.loc(:,1:5)
 ```
 
 ## Question 8
