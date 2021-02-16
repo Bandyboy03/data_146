@@ -27,9 +27,7 @@ An alternative terminology for describing rows and columns is as vectors.
 Import the gapminder.tsv data set and create a new data frame. Interrogate and describe the year variable within the data frame you created. Does this variable exhibit regular intervals? If you were to add new outcomes to the raw data in order to update and make it more current, which years would you add to each subset of observations? Stretch goal: can you identify how many new outcomes in total you would be adding to your data frame?
 
 Looking only at the year variable of the data frame, we can see that it has regular intervals of 5 years. If we were to add new outcomes and update it, we would add the years 2012 and 2017. Since each year has 142 instances, adding the two years would result in 284 new outcomes into the data frame.
-'''
 
-'''
 ## Question 4
 The country with the lowest life expectancy in the data frame was Rwanda in 1992,with a life expectancy of 23.599. 
 To find this data, I found the index of the minimum life expectancy in the data and then used that index to find all information about that particular observation.
