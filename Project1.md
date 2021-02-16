@@ -12,9 +12,17 @@ An alias is used while importing pandas in order to have 'pd' represent pandas. 
 ## Question 2
 Describe what is a data frame? Identify a library of functions that is particularly useful for working with data frames. In order to read a file in its remote location within the file system of your operating system, which command would you use? Provide an example of how to read a file and import it into your work session in order to create a new data frame. Also, describe why specifying an argument within a read_() function can be significant. Does data that is saved as a file in a different type of format require a particular argument in order for a data frame to be successfully imported? Also, provide an example that describes a data frame you created. How do you determine how many rows and columns are in a data frame? Is there an alternate terminology for describing rows and columns?
 
-'''
+A dataframe is a data structure with rows and columns like a table. Pandas is extremely useful when going through data frames. To read a file in its remote location, use the pandas.read_csv() function. Here is an example of how to read the gapminder file and import it into your work.
+```
+path_to_data = 'C:/Users/AndyKim/PycharmProjects/pythonProject1/gapminder.tsv'
+data = pd.read_csv(path_to_data, sep = '\t')
+```
+This code creates the path to the gapminder file and saves it as a tab-seperated values file. This is important because it makes sure that the data structure isn't seperated by commas even though the gapminder file is already seperated by tabs.
 
-'''
+To describe the data frame createe, use data.describe(). This shows statistics for each column.
+To determine the amount of rows and columns, use data.shape()
+
+An alternative terminology for describing rows and columns is as vectors.
 ## Question 3
 Import the gapminder.tsv data set and create a new data frame. Interrogate and describe the year variable within the data frame you created. Does this variable exhibit regular intervals? If you were to add new outcomes to the raw data in order to update and make it more current, which years would you add to each subset of observations? Stretch goal: can you identify how many new outcomes in total you would be adding to your data frame?
 
