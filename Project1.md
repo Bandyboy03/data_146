@@ -24,7 +24,7 @@ Import the gapminder.tsv data set and create a new data frame. Interrogate and d
 
 Looking only at the year variable of the data frame, we can see that it has regular intervals of 5 years. If we were to add new outcomes and update it, we would add the years 2012 and 2017.
 ```
-oneYear = data['year'] == 2002
+oneYear = data['year'] == 1952
 data[oneYear]
 ```
 Using this code, I can look at the data from only 2002 and see that each year has 142 instances. Thus, adding the two years would result in 284 new outcomes into the data frame.
