@@ -49,6 +49,10 @@ Here:
 
 ![](Project1Table.PNG)
 
+Stretch: Germany had the most significant increase in total GDP during the previous 5-year period. This was calculated by creating a subset of the 4 countries with the years 2002 and 2007. Then, the GDP between the years was calculated by subtracting. Finally, the highest increase was measured using > and < statements.
+```
+stretch_data = data[(data['country'].isin(['Germany', 'Italy', 'France', 'Spain'])) & ((data['year'] == 2007) | (data['year'] == 2002))]
+```
 ## Question 6
 You have been introduced to four logical operators thus far: &, ==, | and ^. Describe each one including its purpose and function. Provide an example of how each might be used in the context of programming.
 
