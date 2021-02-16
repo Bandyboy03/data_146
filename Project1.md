@@ -31,11 +31,15 @@ Looking only at the year variable of the data frame, we can see that it has regu
 
 '''
 ## Question 4
-Using the data frame you created by importing the gapminder.tsv data set, determine which country at what point in time had the lowest life expectancy. Conduct a cursory level investigation as to why this was the case and provide a brief explanation in support of your explanation.
-
+The country with the lowest life expectancy in the data frame was Rwanda in 1992,with a life expectancy of 23.599. 
+To find this data, I found the index of the minimum life expectancy in the data and then used that index to find all information about that particular observation.
 '''
-
+lifeExp_min = data['lifeExp'].min()
+idx_min = data['lifeExp'] == lifeExp_min
+data[idx_min]
 '''
+This can be explained by the Rwandan genocide during the civil war that happened from 1990 - 1994.
+
 ## Question 5
 Using the data frame you created by importing the gapminder.tsv data set, multiply the variable pop by the variable gdpPercap and assign the results to a newly created variable. Then subset and order from highest to lowest the results for Germany, France, Italy and Spain in 2007. Create a table that illustrates your results (you are welcome to either create a table in markdown or plot/save in PyCharm and upload the image). Stretch goal: which of the four European countries exhibited the most significant increase in total gross domestic product during the previous 5-year period (to 2007)?
 
