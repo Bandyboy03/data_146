@@ -6,7 +6,7 @@ why u stalking tho
 
 ![](MillerHallSelfie.jpg)
 
-
+![](Project1Table.jpg)
 ## Informal Responses
 
 [Informal Responses](https://bandyboy03.github.io/data_146/InformalResponses.html)
