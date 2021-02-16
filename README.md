@@ -9,7 +9,7 @@ why u stalking tho
 
 ## Informal Responses
 
-[Response1](https://bandyboy03.github.io/data_146/Response1.html)
+[Response1](https://bandyboy03.github.io/data_146/InformalResponses.html)
 
 ## Project 1
 [Project1](https://bandyboy03.github.io/data_146/Project1.html)
