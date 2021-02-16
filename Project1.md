@@ -34,9 +34,9 @@ Looking only at the year variable of the data frame, we can see that it has regu
 The country with the lowest life expectancy in the data frame was Rwanda in 1992,with a life expectancy of 23.599. 
 To find this data, I found the index of the minimum life expectancy in the data and then used that index to find all information about that particular observation.
 '''
-lifeExp_min = data['lifeExp'].min()
-idx_min = data['lifeExp'] == lifeExp_min
-data[idx_min]
+MinLifeExp = data['lifeExp'].min()
+idx_Min = data['lifeExp'] == MinLifeExp
+data[idx_Min]
 '''
 This can be explained by the Rwandan genocide during the civil war that happened from 1990 - 1994.
 
