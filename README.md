@@ -5,7 +5,7 @@ why u stalking tho
 ## smh
 
 ![](MillerHallSelfie.jpg)
-![](Project1Table.jpg)
+![](Project1Table.PNG)
 
 ## Informal Responses
 
