@@ -32,39 +32,40 @@ idx_Min = data['lifeExp'] == MinLifeExp
 data[idx_Min]
 ```
 This can be explained by the Rwandan genocide during the civil war that happened from 1990 - 1994.
-
 ## Question 5
 Using the data frame you created by importing the gapminder.tsv data set, multiply the variable pop by the variable gdpPercap and assign the results to a newly created variable. Then subset and order from highest to lowest the results for Germany, France, Italy and Spain in 2007. Create a table that illustrates your results (you are welcome to either create a table in markdown or plot/save in PyCharm and upload the image). Stretch goal: which of the four European countries exhibited the most significant increase in total gross domestic product during the previous 5-year period (to 2007)?
 
-'''
-
-'''
+```
+data['GDP'] = data['pop'] * data['gdpPercap']
+important_data = data[(data['country'].isin(['Germany', 'Italy', 'France', 'Spain'])) & (data['year'] == 2007)]
+important_filtered = important_data.sort_values('gdp', ascending = False)
+```
 ## Question 6
 You have been introduced to four logical operators thus far: &, ==, | and ^. Describe each one including its purpose and function. Provide an example of how each might be used in the context of programming.
 
-'''
+```
 
-'''
+```
 ## Question 7
 Describe the difference between .loc and .iloc. Provide an example of how to extract a series of consecutive observations from a data frame. Stretch goal: provide an example of how to extract all observations from a series of consecutive columns.
 
-'''
+```
 
-'''
+```
 ## Question 8
 Describe how an api works. Provide an example of how to construct a request to a remote server in order to pull data, write it to a local file and then import it to your current work session.
 
-'''
+```
 
-'''
+```
 ## Question 9
 Describe the apply() function from the pandas library. What is its purpose? Using apply) to various class objects is an alternative (potentially preferable approach) to writing what other type of command? Why do you think apply() could be a preferred approach?
 
-'''
+```
 
-'''
+```
 ## Question 10
 Also describe an alternative approach to filtering the number of columns in a data frame. Instead of using .iloc, what other approach might be used to select, filter and assign a subset number of variables to a new data frame?
-'''
+```
 
-'''
+```
