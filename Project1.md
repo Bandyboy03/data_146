@@ -14,7 +14,7 @@ Describe what is a data frame? Identify a library of functions that is particula
 
 A dataframe is a data structure with rows and columns like a table. Pandas is extremely useful when going through data frames. To read a file in its remote location, use the pandas.read_csv() function. Here is an example of how to read the gapminder file and import it into your work.
 ```
-path_to_data = 'C:/Users/AndyKim/PycharmProjects/pythonProject1/gapminder.tsv'
+path_to_data = 'C:/Users/Andy Kim/PycharmProjects/pythonProject1/gapminder.tsv'
 data = pd.read_csv(path_to_data, sep = '\t')
 ```
 This code creates the path to the gapminder file and saves it as a tab-seperated values file. This is important because it makes sure that the data structure isn't seperated by commas even though the gapminder file is already seperated by tabs.
@@ -26,6 +26,7 @@ An alternative terminology for describing rows and columns is as vectors.
 ## Question 3
 Import the gapminder.tsv data set and create a new data frame. Interrogate and describe the year variable within the data frame you created. Does this variable exhibit regular intervals? If you were to add new outcomes to the raw data in order to update and make it more current, which years would you add to each subset of observations? Stretch goal: can you identify how many new outcomes in total you would be adding to your data frame?
 
+Looking only at the year variable of the data frame, we can see that it has regular intervals of 5 years. If we were to add new outcomes and update it, we would add the years 2012 and 2017. Since each year has 142 instances, adding the two years would result in 284 new outcomes into the data frame.
 '''
 
 '''
