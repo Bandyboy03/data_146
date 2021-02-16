@@ -75,8 +75,9 @@ Describe the difference between .loc and .iloc. Provide an example of how to ext
 ```
 data.loc(1:5)
 ```
+Stretch:
 ```
-Stretch: data.loc(1:5,:)
+data.loc(1:5,:)
 ```
 
 ## Question 8
