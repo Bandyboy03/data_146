@@ -60,13 +60,6 @@ Example: If the country is US OR Canada, return true
 
 ^, the XOR operator, returns true if only one of the conditional statements is true.
 Example: If 
-The AND operator, &, is used when both statements must be true for the overall conditional statement to be true. For example, if you are looking for observations within a data set which come from 2007 and Italy, you would use the & operator.
-
-The equals operator, ==, is used to compare two values, variables, or other pieces of data. For example, if you want to test if a user's input is equal to a certain value in order to perform a command, you would use this operator.
-
-The OR operator, |, is used when at least one of the statements in a conditional statement must be true for the statement to be true. If both are true, the statement still holds. For example, if you are trying to find which observations in a data set are from Italy or have a population over 1 million, you could subset the data by finding the observations where the country equals Italy OR the population is greater than 1 million.
-
-The XOR operator, ^, is used when only one of the statements in a conditional statement must be true for the statement to be true. If both are true, the statement is false. In other words, either statement 1 is true or statement 2 is true. For example, if you are trying to determine ____.
 ## Question 7
 Describe the difference between .loc and .iloc. Provide an example of how to extract a series of consecutive observations from a data frame. Stretch goal: provide an example of how to extract all observations from a series of consecutive columns.
 
