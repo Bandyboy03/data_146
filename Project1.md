@@ -82,18 +82,29 @@ data.loc(:,1:5)
 
 ## Question 8
 Describe how an api works. Provide an example of how to construct a request to a remote server in order to pull data, write it to a local file and then import it to your current work session.
-
+API stands for Application Programming Interface. API's act as middlemen between two machines with a set of rules to communicate. 
 ```
+import os
+import requests
+url = "https://api.covidtracking.com/v1/states/daily.csv"
 
+data_folder = 'data'
+if not os.path.exists(data_folder):
+    os.makedirs(data_folder)
+
+file_name = data_folder.replace(' ', '_') + '.csv'
+
+r = requests.get(url)
+
+with open(file_name, 'wb') as f:
+    f.write(r.content)
+
+df = pd.read_csv(file_name)
 ```
 ## Question 9
 Describe the apply() function from the pandas library. What is its purpose? Using apply) to various class objects is an alternative (potentially preferable approach) to writing what other type of command? Why do you think apply() could be a preferred approach?
 
-```
 
-```
 ## Question 10
 Also describe an alternative approach to filtering the number of columns in a data frame. Instead of using .iloc, what other approach might be used to select, filter and assign a subset number of variables to a new data frame?
-```
 
-```
