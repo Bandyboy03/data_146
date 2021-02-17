@@ -20,8 +20,6 @@ To determine the amount of rows and columns, use data.shape()
 
 An alternative terminology for describing rows and columns is as vectors.
 ## Question 3
-Import the gapminder.tsv data set and create a new data frame. Interrogate and describe the year variable within the data frame you created. Does this variable exhibit regular intervals? If you were to add new outcomes to the raw data in order to update and make it more current, which years would you add to each subset of observations? Stretch goal: can you identify how many new outcomes in total you would be adding to your data frame?
-
 Looking only at the year variable of the data frame, we can see that it has regular intervals of 5 years. If we were to add new outcomes and update it, we would add the years 2012 and 2017.
 ```
 oneYear = data['year'] == 1952
@@ -38,8 +36,6 @@ data[idx_Min]
 ```
 This can be explained by the Rwandan genocide during the civil war that happened from 1990 - 1994.
 ## Question 5
-Using the data frame you created by importing the gapminder.tsv data set, multiply the variable pop by the variable gdpPercap and assign the results to a newly created variable. Then subset and order from highest to lowest the results for Germany, France, Italy and Spain in 2007. Create a table that illustrates your results (you are welcome to either create a table in markdown or plot/save in PyCharm and upload the image). Stretch goal: which of the four European countries exhibited the most significant increase in total gross domestic product during the previous 5-year period (to 2007)?
-
 ```
 data['GDP'] = data['pop'] * data['gdpPercap']
 important_data = data[(data['country'].isin(['Germany', 'Italy', 'France', 'Spain'])) & (data['year'] == 2007)]
@@ -54,8 +50,6 @@ Stretch: Germany had the most significant increase in total GDP during the previ
 stretch_data = data[(data['country'].isin(['Germany', 'Italy', 'France', 'Spain'])) & ((data['year'] == 2007) | (data['year'] == 2002))]
 ```
 ## Question 6
-You have been introduced to four logical operators thus far: &, ==, | and ^. Describe each one including its purpose and function. Provide an example of how each might be used in the context of programming.
-
 The logical operators &, ==, |, and ^ are used in conditional statements or functions that include two values/variables.
 
 &, the AND operator, returns true if both conditional statements are true.
@@ -81,7 +75,6 @@ data.loc(:,1:5)
 ```
 
 ## Question 8
-Describe how an api works. Provide an example of how to construct a request to a remote server in order to pull data, write it to a local file and then import it to your current work session.
 API stands for Application Programming Interface. API's act as middlemen between two machines with a set of rules to communicate. 
 ```
 import os
@@ -102,9 +95,13 @@ with open(file_name, 'wb') as f:
 df = pd.read_csv(file_name)
 ```
 ## Question 9
-Describe the apply() function from the pandas library. What is its purpose? Using apply) to various class objects is an alternative (potentially preferable approach) to writing what other type of command? Why do you think apply() could be a preferred approach?
-
+The apply() function applies a function along one of the axis of the DataFrame. This is an alternative to looping over a dataframe. It is faster and easier to code because it can go through an entire dataframe with one short line using the apply() function.
 
 ## Question 10
-Also describe an alternative approach to filtering the number of columns in a data frame. Instead of using .iloc, what other approach might be used to select, filter and assign a subset number of variables to a new data frame?
-
+Another approach to assign a subset number of variables to another data frame is to use the conditional function isin(). This is the same code used before to find the GDP of the 4 European countries in 2007
+```
+data['GDP'] = data['pop'] * data['gdpPercap']
+important_data = data[(data['country'].isin(['Germany', 'Italy', 'France', 'Spain'])) & (data['year'] == 2007)]
+important_data = important_data.sort_values('GDP', ascending = False)
+important_data
+```
