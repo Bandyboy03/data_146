@@ -17,7 +17,7 @@ This code creates the path to the gapminder file and saves it as a tab-seperated
 To describe the data frame createe, use data.describe(). This shows statistics for each column.
 To determine the amount of rows and columns, use data.shape()
 
-An alternative terminology for describing rows and columns is as vectors.
+An alternative terminology for describing rows and columns is as observations and variables.
 ### Question 3
 Looking only at the year variable of the data frame, we can see that it has regular intervals of 5 years. If we were to add new outcomes and update it, we would add the years 2012 and 2017.
 ```
@@ -52,16 +52,16 @@ stretch_data = data[(data['country'].isin(['Germany', 'Italy', 'France', 'Spain'
 The logical operators &, ==, |, and ^ are used in conditional statements or functions that include two values/variables.
 
 &, the AND operator, returns true if both conditional statements are true.
-Example: If the country is Germany AND the year is 2007, return true
+Example: If the country is Germany & the year is 2007, return true
 
 ==, the Equals operator, returns true if two values/variables are the same.
 Example: If 5+5 == 10, return true
 
 |, the OR operator, returns true if one of the conditional statements is true.
-Example: If the country is US OR Canada, return true
+Example: If the country = 'US' | 'Canada', return true
 
 ^, the XOR operator, returns true if only one of the conditional statements is true. It is very similar to the OR operator, with the difference being that it returns false if both statements are true.
-Example: If the is a cat XOR a dog, return true. (Returns false if there is a cat and a dog.)
+Example: If the is a cat ^ a dog, return true. (Returns false if there is a cat and a dog.)
 ### Question 7
 
 .loc and .iloc access a group of rows and columns. The difference between the two is that .loc always interprets the labels, whereas .iloc interprets the integer positions along the index.
