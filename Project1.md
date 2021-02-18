@@ -54,25 +54,26 @@ The logical operators &, ==, |, and ^ are used in conditional statements or func
 &, the AND operator, returns true if both conditional statements are true.
 Example: 
 ```
-If the country is Germany & the year is 2007, return true
+If (country = 'Germany' & year == 2007)
 ```
 
 ==, the Equals operator, returns true if two values/variables are the same.
 Example:
 ```
-If 5+5 == 10, return true
+If (5+5 == 10)
 ```
 
 |, the OR operator, returns true if one of the conditional statements is true.
 Example:
 ```
-If the country = 'US' | 'Canada', return true
+If (country = 'US' | 'Canada')
 ```
 
 ^, the XOR operator, returns true if only one of the conditional statements is true. It is very similar to the OR operator, with the difference being that it returns false if both statements are true.
 Example:
 ```
-If the is a cat ^ a dog, return true. ```
+If (animal = 'cat' ^ 'dog')
+```
 (Returns false if there is a cat and a dog.)
 ### Question 7
 
