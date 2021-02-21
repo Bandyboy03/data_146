@@ -12,7 +12,5 @@ why u stalking tho
 
 ## Project 1
 [Project1](https://bandyboy03.github.io/data_146/Project1.html)
-[Project1](Project1.md)
 
-
-https://bandyboy03.github.io/data_146/Project1.html
+[Project1](Project1.html)
