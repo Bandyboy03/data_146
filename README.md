@@ -1,9 +1,4 @@
-# yo
-
-why u stalking tho
-
-## smh
-
+## How to put in a photo
 ![](MillerHallSelfie.jpg)
 
 ## Informal Responses
