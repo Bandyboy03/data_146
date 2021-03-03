@@ -65,3 +65,5 @@ Using the seaborn library of functions, produce a box and whiskers plot of popul
 
 
 ![](Question4_Plot2.PNG)
+
+In contrast to Question 3, the difference between the normal and logarithmic plots is much greater here. The normal plot is extremely hard to see, due to the outliers drastically changing the median, mode, and interquartile ranges of the boxes. The Logarithmic plot does a much better job of spreading the data out so the "boxes and whiskers" are easily visible. Thus, the comparison of the population over the years among all of the countries is better communicated.
