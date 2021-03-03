@@ -17,7 +17,6 @@ Target: Whether or not a person is carrying an umbrella
 Scientists can make hypotheses on specific people by stringing together past observations on each of the features. For example, if data shows that females are more likely to carry an umbrella when the temperature is low and there are a lot of clouds, then scientists can predict that under similar conditions, the person is more likely to be carrying an umbrella than not.
 
 ### Question 2
-Comment out the seed from your randomly generated data set of 1000 observations and use the beta distribution to produce a plot that has a mean that approximates the 50th percentile. Also produce both a right skewed and left skewed plot by modifying the alpha and beta parameters from the distribution. Be sure to modify the widths of your columns in order to improve legibility of the bins (intervals). Include the mean and median for all three plots.
 
 ![](Question2_Plot1.PNG)
 
