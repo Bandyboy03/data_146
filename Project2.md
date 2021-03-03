@@ -24,6 +24,7 @@ Comment out the seed from your randomly generated data set of 1000 observations 
 The mean approximates the 50th percentile at 0.5027
 
 Median: 0.504912
+
 Mean: 0.502757
 
 ------------------------------------------------------------------------
@@ -33,6 +34,7 @@ Mean: 0.502757
 This plot is skewed right with an alpha of 0.5 and a beta of 2.0
 
 Median: 0.127099
+
 Mean: 0.207406
 
 ------------------------------------------------------------------------
@@ -43,6 +45,7 @@ This plot is skewed left with an alpha of 2.0 and a beta of 0.5
 
 
 Median: 0.874563
+
 Mean: 0.809239
 
 
