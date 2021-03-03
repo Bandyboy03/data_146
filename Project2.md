@@ -54,14 +54,14 @@ Using the gapminder data set, produce two overlapping histograms within the same
 ![](Question3_Plot1.PNG)
 
 
+![](Question3_Plot2.PNG)
 
-By adding np.log10(), the data is transformed
+By adding np.log10(), the data is transformed.
 ```
 plt.hist(np.log10(df_lifeExp1952['lifeExp']), rwidth=0.9, label=1952, alpha=0.5)
 plt.hist(np.log10(df_lifeExp2007['lifeExp']), rwidth=0.9, label=2007, alpha=0.5)
 ```
-![](Question3_Plot2.PNG)
-
+The resulting plot has a different scale of Life Expectancy, making the increase in Life Expectancy over the years easier to see. The lower variances in the second plot allows the difference to be clearer.
 ### Question 4
 Using the seaborn library of functions, produce a box and whiskers plot of population for all countries at the given 5-year intervals. Also apply a logarithmic transformation to this data and produce a second plot. Which of the two resulting box and whiskers plots best communicates the change in population amongst all of these countries from 1952 to 2007?```
 
