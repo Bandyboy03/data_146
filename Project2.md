@@ -22,11 +22,11 @@ Comment out the seed from your randomly generated data set of 1000 observations 
 ![](Question2_Plot1.PNG)
 Median: 0.504912
 Mean: 0.502757
-------------------------------
+
 ![](Question2_Plot2.PNG)
 Median: 0.127099
 Mean: 0.207406
---------------------------------
+
 ![](Question2_Plot3.PNG)
 Median: 0.874563
 Mean: 0.809239
