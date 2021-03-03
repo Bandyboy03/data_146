@@ -1,7 +1,4 @@
 ## Project 1
-
-Create a new markdown file and upload it to your GitHub repository. Provide a link to your newly created project2.md file from your main index. Populate your newly created markdown file with your answers to the following questions. Each question is worth 2.5 points. Upload your response no later than midnight on Wednesday, March 3rd.
-
 ### Question 1
 Continuous data is data that can take any value within a range. For example, the temperature is continuous data because it could be between 45 and 46 degrees outside. The temperature can be infinitely specific like 45.5565 degrees.
 
@@ -49,8 +46,6 @@ Mean: 0.809239
 
 
 ### Question 3
-Using the gapminder data set, produce two overlapping histograms within the same plot describing life expectancy in 1952 and 2007. Plot the overlapping histograms using both the raw data and then after applying a logarithmic transformation (np.log10() is fine). Which of the two resulting plots best communicates the change in life expectancy amongst all of these countries from 1952 to 2007?
-
 ![](Question3_Plot1.PNG)
 
 
