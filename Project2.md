@@ -55,7 +55,11 @@ Using the gapminder data set, produce two overlapping histograms within the same
 
 
 
-
+By adding np.log10(), the data is transformed
+```
+plt.hist(np.log10(df_lifeExp1952['lifeExp']), rwidth=0.9, label=1952, alpha=0.5)
+plt.hist(np.log10(df_lifeExp2007['lifeExp']), rwidth=0.9, label=2007, alpha=0.5)
+```
 ![](Question3_Plot2.PNG)
 
 ### Question 4
