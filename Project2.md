@@ -1,4 +1,4 @@
-## Project 1
+## Project 2
 ### Question 1
 Continuous data is data that can take any value within a range. For example, the temperature is continuous data because it could be between 45 and 46 degrees outside. The temperature can be infinitely specific like 45.5565 degrees.
 
