@@ -19,15 +19,15 @@ Scientists can make hypotheses on specific people by stringing together past obs
 ### Question 2
 Comment out the seed from your randomly generated data set of 1000 observations and use the beta distribution to produce a plot that has a mean that approximates the 50th percentile. Also produce both a right skewed and left skewed plot by modifying the alpha and beta parameters from the distribution. Be sure to modify the widths of your columns in order to improve legibility of the bins (intervals). Include the mean and median for all three plots.
 ```
-![](Project2_Plot1.PNG)
+![](Question2_Plot1.PNG)
 Median: 0.504912
 Mean: 0.502757
 ------------------------------
-![](Project2_Plot2.PNG)
+![](Question2_Plot2.PNG)
 Median: 0.127099
 Mean: 0.207406
 --------------------------------
-![](Project2_Plot3.PNG)
+![](Question2_Plot3.PNG)
 Median: 0.874563
 Mean: 0.809239
 ```
