@@ -3,8 +3,6 @@
 Create a new markdown file and upload it to your GitHub repository. Provide a link to your newly created project2.md file from your main index. Populate your newly created markdown file with your answers to the following questions. Each question is worth 2.5 points. Upload your response no later than midnight on Wednesday, March 3rd.
 
 ### Question 1
-Describe continuous, ordinal and nominal data. Provide examples of each. Describe a model of your own construction that incorporates variables of each type of data. You are perfectly welcome to describe your model using english rather than mathematical notation if you prefer. Include hypothetical variables that represent your features and target.
-```
 Continuous data is data that can take any value within a range. For example, the temperature is continuous data because it could be between 45 and 46 degrees outside. The temperature can be infinitely specific like 45.5565 degrees.
 
 Ordinal data is a categorical data that has a scale. For example, the amount of clouds in the sky could be from clear to somewhat cloudy to cloudy. There isn't an equal difference between each scale.
@@ -17,16 +15,19 @@ Features: Outside Temp, Cloud Coverage, Sex
 Target: Whether or not a person is carrying an umbrella
 
 Scientists can make hypotheses on specific people by stringing together past observations on each of the features. For example, if data shows that females are more likely to carry an umbrella when the temperature is low and there are a lot of clouds, then scientists can predict that under similar conditions, the person is more likely to be carrying an umbrella than not.
-```
+
 ### Question 2
 Comment out the seed from your randomly generated data set of 1000 observations and use the beta distribution to produce a plot that has a mean that approximates the 50th percentile. Also produce both a right skewed and left skewed plot by modifying the alpha and beta parameters from the distribution. Be sure to modify the widths of your columns in order to improve legibility of the bins (intervals). Include the mean and median for all three plots.
 ```
+![](Project2_Plot1.PNG)
 Median: 0.504912
 Mean: 0.502757
-
+------------------------------
+![](Project2_Plot2.PNG)
 Median: 0.127099
 Mean: 0.207406
-
+--------------------------------
+![](Project2_Plot3.PNG)
 Median: 0.874563
 Mean: 0.809239
 ```
