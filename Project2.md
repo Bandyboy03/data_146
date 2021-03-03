@@ -18,7 +18,7 @@ Scientists can make hypotheses on specific people by stringing together past obs
 
 ### Question 2
 Comment out the seed from your randomly generated data set of 1000 observations and use the beta distribution to produce a plot that has a mean that approximates the 50th percentile. Also produce both a right skewed and left skewed plot by modifying the alpha and beta parameters from the distribution. Be sure to modify the widths of your columns in order to improve legibility of the bins (intervals). Include the mean and median for all three plots.
-```
+
 ![](Question2_Plot1.PNG)
 Median: 0.504912
 Mean: 0.502757
@@ -30,7 +30,7 @@ Mean: 0.207406
 ![](Question2_Plot3.PNG)
 Median: 0.874563
 Mean: 0.809239
-```
+
 
 ### Question 3
 Using the gapminder data set, produce two overlapping histograms within the same plot describing life expectancy in 1952 and 2007. Plot the overlapping histograms using both the raw data and then after applying a logarithmic transformation (np.log10() is fine). Which of the two resulting plots best communicates the change in life expectancy amongst all of these countries from 1952 to 2007?
