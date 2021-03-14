@@ -7,9 +7,7 @@ Create a new markdown file and upload it to your GitHub repository. Provide a li
 I set the features to be beds, baths, and square feet, with the target being asking price. Using Kfold, I seperated the data into Testing and Training data with 10 folds. This produced a training score of 0.019 and a testing score of -0.043. These are poor scores because a perfectly fit model would have a score of 1. This shows that the model does not perform well at the current moment.
 
 ### Question 2
-Now standardize your features (again beds, baths and area) prior to training and testing with a linear regression model (also again with asking price as your target). Now how did your model perform? What were the training and testing scores you produced? How many folds did you assign when partitioning your training and testing data? Interpret and assess your output.
-
-
+After standardizing the features with StandardScaler, the model still performed poorly. I kept the folds at 10 to keep it consistent. The model had a training score of 0.020 and a testing score of -0.038. Although, the scores ma;y have improved slightly, there is still a long way to go.
 
 ### Question 3
 Then train your dataset with the asking price as your target using a ridge regression model. Now how did your model perform? What were the training and testing scores you produced? Did you standardize the data? Interpret and assess your output.
