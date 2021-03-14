@@ -3,9 +3,8 @@
 Create a new markdown file and upload it to your GitHub repository. Provide a link to your newly created project3.md file from your main index. Populate your newly created markdown file with your answers to the following questions. This lab is worth 10 points. Upload your response no later than midnight on Tuesday, March 16th.
 
 ### Question 1
-Download the dataset charleston_ask.csv and import it into your PyCharm project workspace. Specify and train a model the designates the asking price as your target variable and beds, baths and area (in square feet) as your features. Train and test your target and features using a linear regression model. Describe how your model performed. What were the training and testing scores you produced? How many folds did you assign when partitioning your training and testing data? Interpret and assess your output.
 
-
+I set the features to be beds, baths, and square feet, with the target being asking price. Using Kfold, I seperated the data into Testing and Training data with 10 folds. This produced a training score of 0.019 and a testing score of -0.043. These are poor scores because a perfectly fit model would have a score of 1. This shows that the model does not perform well at the current moment.
 
 ### Question 2
 Now standardize your features (again beds, baths and area) prior to training and testing with a linear regression model (also again with asking price as your target). Now how did your model perform? What were the training and testing scores you produced? How many folds did you assign when partitioning your training and testing data? Interpret and assess your output.
