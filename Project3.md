@@ -20,7 +20,9 @@ Next, go back, train and test each of the three previous model types/specificati
 
 Non-Standardized: Training score of 0.339//Testing score of 0.217
 
+
 Standardized: Training score of 0.339//Testing score of 0.243
+
 
 Ridge Regression:Training score of 0.336//Testing score of 0.229
 
