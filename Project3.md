@@ -13,7 +13,6 @@ After standardizing the features with StandardScaler, the model still performed 
 After training the dataset using a ridge regression, the model performed poorly yet again. Keeping the folds at 10, the model had a training score of 0.019 and a testing score of -0.034. The optimal alpha value was 100. This model is basically the same in terms of performance to the Non-standardized and Standardized ones.
 
 ### Question 4
-Next, go back, train and test each of the three previous model types/specifications, but this time use the dataset charleston_act.csv (actual sale prices). How did each of these three models perform after using the dataset that replaced asking price with the actual sale price? What were the training and testing scores you produced? Interpret and assess your output.
 Non-Standardized: Training score of 0.004//Testing score of -0.031
 
 
