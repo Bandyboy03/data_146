@@ -16,7 +16,7 @@ Then train your dataset with the asking price as your target using a ridge regre
 ### Question 4
 Next, go back, train and test each of the three previous model types/specifications, but this time use the dataset charleston_act.csv (actual sale prices). How did each of these three models perform after using the dataset that replaced asking price with the actual sale price? What were the training and testing scores you produced? Interpret and assess your output.
 
-## Question 5
+### Question 5
 
 Non-Standardized: Training score of 0.339//Testing score of 0.217
 Standardized: Training score of 0.339//Testing score of 0.243
@@ -25,5 +25,5 @@ Ridge Regression:Training score of 0.336//Testing score of 0.229
 Indicating the zip code where each individual home is located greatly improved the model's accuracy. The Non-standardized, standardized, and ridge regression models all had positive testing and training scores. This is a huge improvement that could suggests that housing prices rely on their locations (zip codes). I kept the folds at 10.
 
 
-## Question 6
+### Question 6
 The Standardized model with zip codes produced the best results. I estimate that this model is being overfit, due to the training score being higher than the testing score. In order to improve the predictive power of the model, I would recommend that they add more variables. They could add crime rate in the area, access to education and convenience stores, or many other variables that determine the price of a house.
