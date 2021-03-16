@@ -21,7 +21,7 @@ Standardized: Training score of 0.004//Testing score of -0.062
 
 Ridge Regression:Training score of 0.004//Testing score of -0.055
 
-
+The charleston_act.csv data didn't perform any better than the charleston_ask.csv data. The training and testing scores actually decreased so technically the charleston_act.csv data did worse.
 ### Question 5
 
 Non-Standardized: Training score of 0.339//Testing score of 0.217
