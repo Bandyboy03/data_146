@@ -25,5 +25,5 @@ Ridge Regression:Training score of 0.336//Testing score of 0.229
 Indicating the zip code where each individual home is located greatly improved the model's accuracy. The Non-standardized, standardized, and ridge regression models all had positive testing and training scores. This is a huge improvement that could suggests that housing prices rely on their locations (zip codes). I kept the folds at 10.
 
 
-##Question 6
+## Question 6
 The Standardized model with zip codes produced the best results. I estimate that this model is being overfit, due to the training score being higher than the testing score. In order to improve the predictive power of the model, I would recommend that they add more variables. They could add crime rate in the area, access to education and convenience stores, or many other variables that determine the price of a house.
