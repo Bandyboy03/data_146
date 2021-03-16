@@ -4,17 +4,24 @@ Create a new markdown file and upload it to your GitHub repository. Provide a li
 
 ### Question 1
 
-I set the features to be beds, baths, and square feet, with the target being asking price. Using Kfold, I seperated the data into Testing and Training data with 10 folds. This produced a training score of 0.019 and a testing score of -0.043. These are poor scores because a perfectly fit model would have a score of 1. This shows that the model does not perform well at the current moment.
+I set the features to be beds, baths, and square feet, with the target being asking price. Using Kfold, I seperated the data into Testing and Training data with 10 folds. This produced a training score of 0.019 and a testing score of -0.002. These are poor scores because a perfectly fit model would have a score of 1. This shows that the model does not perform well at the current moment.
 
 ### Question 2
-After standardizing the features with StandardScaler, the model still performed poorly. I kept the folds at 10 to keep it consistent. The model had a training score of 0.020 and a testing score of -0.038. Although, the scores ma;y have improved slightly, there is still a long way to go.
+After standardizing the features with StandardScaler, the model still performed poorly. I kept the folds at 10 to keep it consistent. The model had a training score of 0.020 and a testing score of -0.038. Although, the scores may have improved slightly, there is still a long way to go.
 
 ### Question 3
-Then train your dataset with the asking price as your target using a ridge regression model. Now how did your model perform? What were the training and testing scores you produced? Did you standardize the data? Interpret and assess your output.
-
+After training the dataset using a ridge regression, the model performed poorly yet again. Keeping the folds at 10, the model had a training score of 0.019 and a testing score of -0.034. The optimal alpha value was 100. This model is basically the same in terms of performance to the Non-standardized and Standardized ones.
 
 ### Question 4
 Next, go back, train and test each of the three previous model types/specifications, but this time use the dataset charleston_act.csv (actual sale prices). How did each of these three models perform after using the dataset that replaced asking price with the actual sale price? What were the training and testing scores you produced? Interpret and assess your output.
+Non-Standardized: Training score of 0.004//Testing score of -0.031
+
+
+Standardized: Training score of 0.004//Testing score of -0.062
+
+
+Ridge Regression:Training score of 0.004//Testing score of -0.055
+
 
 ### Question 5
 
