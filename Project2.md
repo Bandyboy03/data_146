@@ -53,8 +53,8 @@ Mean: 0.809239
 
 By adding np.log10(), the data is transformed.
 ```
-plt.hist(np.log10(df_lifeExp1952['lifeExp']), rwidth=0.9, label=1952, alpha=0.5)
-plt.hist(np.log10(df_lifeExp2007['lifeExp']), rwidth=0.9, label=2007, alpha=0.5)
+plt.hist(np.log10(df_lifeExp1952['lifeExp']), rwidth=0.9, label=1952, alpha=0.5, bins=my_bins)
+plt.hist(np.log10(df_lifeExp2007['lifeExp']), rwidth=0.9, label=2007, alpha=0.5, bins=my_bins)
 ```
 The resulting plot has a different scale of Life Expectancy, making the increase in Life Expectancy over the years easier to see. The lower variances in the second plot allows the difference to be clearer.
 ### Question 4
