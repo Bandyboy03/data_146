@@ -46,10 +46,10 @@ Mean: 0.809239
 
 
 ### Question 3
-![](Question3_Plot1.PNG)
+![](Question3_Plot1Final.PNG)
 
 
-![](Question3_Plot2.PNG)
+![](Question3_Plot2Final.PNG)
 
 By adding np.log10(), the data is transformed.
 ```
