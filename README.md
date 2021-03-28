@@ -16,4 +16,4 @@
 [Project3](https://bandyboy03.github.io/data_146/Project3.html)
 
 ## Midterm
-[SliceofDataPaper](https://bandyboy03.github.io/data_146/SliceofDataPaper.html)
+[SliceOfDataPaper](https://bandyboy03.github.io/data_146/SliceOfDataPaper.html)
