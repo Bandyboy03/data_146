@@ -17,4 +17,5 @@
 
 ## Midterm
 [MidtermCorrections](https://bandyboy03.github.io/data_146/MidtermCorrections.html)
+
 [SliceOfDataPaper](https://bandyboy03.github.io/data_146/SliceOfDataPaper.html)
