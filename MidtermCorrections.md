@@ -56,7 +56,7 @@ y = np.array(data.target)
 ```
 
 ### Question 15
-#### My Answer:
+#### What I did:
 ```
 X = data.data
 X_names = data.feature_names
@@ -96,7 +96,7 @@ np.round(lin_reg.score(X_df['MedInc'].values.reshape(-1,1),y),2)
 I knew that I had to use Linear Regression and fit the targets to the features. However, I used the entire dataset of features and targets, instead of subsetting only the feature of "MedInc." I misread the question, so this was another dumb mistake by me. 
 
 ### Question 21
-#### My Answer:
+#### What I did:
 ```
 from sklearn.preprocessing import StandardScaler as SS
 ss = SS()
@@ -133,7 +133,7 @@ lin.coef_[5], rid.coef_[5], las.coef_[5]
 #### Reflection
 Here, I wasn't sure how to approach the question. I decided to graph all of the Coefficient Estimates of all the features, and look at them to see which had the closest Absolute Value to zero. I think that this approach is useful for quick decision-making, but not in this case where the values are extremely close. To be completely honest, I was very lost on this section and didn't realize that I could solve it in just a couple lines of code with "lin.coef_[5]" and such.
 ### Question 22
-#### My Answer:
+#### What I did:
 ```
 from sklearn.preprocessing import StandardScaler as SS
 ss = SS()
@@ -168,7 +168,7 @@ lin.coef_[0], rid.coef_[0], las.coef_[0]
 This is essentially the same question as 21.
 
 ### Question 24
-#### My Answer:
+#### What I did:
 ```
 ### Lasso Regression ###
 
@@ -194,8 +194,6 @@ print('Testing score for this value: ' + format(avg_te_score[idx], '.5f'))
 ```
 #### Correct Answer:
 ```
-#24
-
 idx = np.argmin(las_te_mse)
 print(las_a_range[idx], las_tr[idx], las_te[idx], las_tr_mse[idx], las_te_mse[idx])
 
