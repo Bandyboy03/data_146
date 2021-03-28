@@ -1,20 +1,21 @@
-15, 17, 21, 22, 24
 ## Midterm Corrections
 ### Question 15
-	
 The remainder of the questions are based on the California House Price data provided by sklearn.  To load this data (you will need an internet connection) you will first need to import:
 
 from sklearn.datasets import fetch_california_housing
 
 After that, the process to unpack the data is similar to what we have done in class with the other sklearn datasets.  The documentation can be found here: https://scikit-learn.org/stable/modules/generated/sklearn.datasets.fetch_california_housing.html
 
-
-
 Which of the below features is most strongly correlated with the target?
+
+#### My Answer:
 ```
 import pandas as pd
-
 ```
+#### Correct Answer:
+```
+```
+#### Reflection
 An alias is used while importing pandas in order to have 'pd' represent pandas. This makes it easier when coding because you don't have to type as much
 ### Question 17
 
