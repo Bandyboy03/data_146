@@ -1,6 +1,6 @@
 ## Midterm Corrections
 
-### Importing Libraries and Data
+### Importing Libraries
 ```
 from sklearn.linear_model import LinearRegression
 from sklearn.datasets import fetch_california_housing
