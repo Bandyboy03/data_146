@@ -19,3 +19,6 @@
 [MidtermCorrections](https://bandyboy03.github.io/data_146/MidtermCorrections.html)
 
 [SliceOfDataPaper](https://bandyboy03.github.io/data_146/SliceOfDataPaper.html)
+
+## Project 5
+[Project5](https://bandyboy03.github.io/data_146/Project5.html)
