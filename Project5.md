@@ -15,10 +15,12 @@ Standardized R^2: 0.7358 and 0.7351
 Standardizing the data did not change any of the results. Most the the changes were in the 10,000's place, and often isn't even visible when rounding to 4 digits.
 ### Question 2
 Run a ridge regression and report your best results.
+
 I ran the ridge regression for alpha values between 70 and 80, finding a strongest alpha value of 76. Using this, I got a training score of 0.7341 and a testing score of 0.7353.
 
 ### Question 3
 Run a lasso regression and report your best results.
+
 I ran the lasso regression for alpha values between 0.0002 and 0.0003, finding a strongest alpha value of 0.00026. Using this, I got a training score of 0.73577 and a testing score of 0.73519.
 
 ### Question 4
