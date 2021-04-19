@@ -50,8 +50,4 @@ Which of the models produced the best results in predicting wealth of all person
 
 After all of the R^2 calculations, the Linear regression of WealthI unstandardized performed the best, although it was only better than the standardized model by a miniscule amount. In the same way, the Ridge and Lasso regressions of WealthI performed very similarly, so I don't think any model was particularly better than the other. However, the WealthC models all performed better than the WealthI models. Thus, I would say picking a WealthI model over a WealthC model would be the best choice.
 
-Here is the Lasso Regression from WealthC:
-![](WealthC_Lasso.png)
 
-Here is the Lasso Regression from WealthI:
-![](WealthI_Lasso.png)
