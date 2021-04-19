@@ -47,3 +47,6 @@ Both the Ridge and Lasso regressions did not improve much from the Linear regres
 Which of the models produced the best results in predicting wealth of all persons throughout the smaller West African country being described? Support your results with plots, graphs and descriptions of your code and its implementation. You are welcome to incorporate snippets to illustrate an important step, but please do not paste verbose amounts of code within your project report. Alternatively, you are welcome to provide a link in your references at the end of your (part 1) Project 5 report.
 
 After all of the R^2 calculations, the Linear regression of WealthI unstandardized performed the best, although it was only better than the standardized model by a miniscule amount. In the same way, the Ridge and Lasso regressions of WealthI performed very similarly, so I don't think any model was particularly better than the other. However, the WealthC models all performed better than the WealthI models. Thus, I would say picking a WealthI model over a WealthC model would be the best choice.
+
+![](WealthC_Lasso.PNG)
+![](WealthI_Lasso.PNG)
