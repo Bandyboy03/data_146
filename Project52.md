@@ -32,14 +32,20 @@ Here are the results of the random forest model for 100, 500, 1000, and 5000 est
 
 RAW
 Training and Testing Scores of 100 trees: 0.7869 and 0.5012
+
 Training and Testing Scores of 500 trees: 0.7869 and 0.5009
+
 Training and Testing Scores of 1000 trees: 0.7869 and 0.5002
+
 Training and Testing Scores of 50000 trees: 0.7869 and 0.5005
 
 SCALED
 Training and Testing Scores of 100 trees: 0.7972 and 0.4997
+
 Training and Testing Scores of 500 trees: 0.7972 and 0.4904
+
 Training and Testing Scores of 1000 trees: 0.7972 and 0.4982
+
 Training and Testing Scores of 50000 trees: 0.7972 and 0.4953
 
 Surprisingly, the model with 100 trees (the least amount of estimators) performed the best, with the highest testing score.
@@ -50,7 +56,9 @@ The minimum number of samples required to split an internal node with a range of
 Repeat the previous steps after recoding the wealth classes 2 and 3 into a single outcome. Do any of your models improve? Are you able to explain why your results have changed?
 
 For the KNN model, testing score increased from 0.5637 to 0.6144.
+
 For the Linear Regression model, testing score increased from 0.5447 to 0.6000.
+
 For the Decision Tree models, the values of all the training and testing data (Raw and Scaled) increased by almost 25%.
 
 Overall, the recoding increased the accuracy of all of the models, some more than others. This may be due to the decreased amount of variance in the data, making accuracy better.
