@@ -22,3 +22,6 @@
 
 ## Project 5
 [Project5](https://bandyboy03.github.io/data_146/Project5.html)
+
+## Project 5 pt2
+[Project52](https://bandyboy03.github.io/data_146/Project52.html)
